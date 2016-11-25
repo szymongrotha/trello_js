@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+}
+
+.board {
+	height: 75px;
+	background: green;
+	padding: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.create-column {
+	margin: 37px;
+}
+
+.column-title {
+	display: inline-block;
+}
+
+.column-container {
+	display: flex;
+	padding: 20px;
+	background: red;
+}
+
+.column {
+	flex-grow: 1;
+	border: 2px black solid;
+	margin: 10px;
+	padding: 20px;
+}
+
+.column-card-list {
+	min-height: 200px;
+}
+
+.btn-delete {
+	float: right;
+}
+
+li {
+	list-style-type: none;
+}
+
+.card-description {
+	padding: 15px;
+	border: 2px black solid;
+
+}
+
+.add-card {
+	margin-left: 10px;
+}
