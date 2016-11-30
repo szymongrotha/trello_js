@@ -103,4 +103,3 @@ todoColumn.addCard(card1);
 doingColumn.addCard(card2);
 
 });
-

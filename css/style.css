@@ -42,19 +42,33 @@ header {
 	padding: 20px;
 }
 
+@media (max-width: 992px) {
+	.column-container {
+	flex-direction: column;
+	}
+}
+
 .column {
 	flex-grow: 1;
-	border-radius: 5%;
 	margin: 10px;
 	padding: 20px;
 	background: rgba(0,0,0,0.6);
 	border:5px solid white;
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	width: 100%;
+}
+
+@media (max-height: 992px) {
+	.column {
+		width: 90%;
+		min-height: 350px;
+	}
 }
 
 .column-card-list, ul {
 	min-height: 200px;
 	margin: 0;
+	padding: 0;
 }
 
 .btn-delete {
